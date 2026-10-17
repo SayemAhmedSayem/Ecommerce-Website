@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  cout << "Hello World!" << endl;
-  out << "Hello World!"; // This is a comment
+  int myAge = 35;
+  cout << "I am " << myAge << " years old.";
   return 0;
 }
