@@ -3,6 +3,6 @@ using namespace std;
 
 int main() {
   cout << "Hello World!" << endl;
-  cout << "I am learning Eng C++";
+  out << "Hello World!"; // This is a comment
   return 0;
 }
