@@ -2,9 +2,16 @@
 using namespace std;
 
 int main() {
-	int x, y, z;
-	x = y = z = k = 50;
-	
-	cout << x + y + z + k +;
+	// Student data
+int studentID = 15;
+int studentAge = 23;
+double studentFee = 75.25;
+char studentGrade = 'B';
+
+// Print variables
+cout << "Student ID: " << studentID << "\n";
+cout << "Student Age: " << studentAge << "\n";
+cout << "Student Fee: " << studentFee << "\n";
+cout << "Student Grade: " << studentGrade << "\n";
   return 0;
 }
