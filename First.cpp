@@ -2,16 +2,13 @@
 using namespace std;
 
 int main() {
-	// Student data
-int studentID = 15;
-int studentAge = 23;
-double studentFee = 75.25;
-char studentGrade = 'B';
-
-// Print variables
-cout << "Student ID: " << studentID << "\n";
-cout << "Student Age: " << studentAge << "\n";
-cout << "Student Fee: " << studentFee << "\n";
-cout << "Student Grade: " << studentGrade << "\n";
+  int x, y;
+  int sum;
+  cout << "Type a number: ";
+  cin >> x;
+  cout << "Type another number: ";
+  cin >> y;
+  sum = x + y;
+  cout << "Sum is: " << sum;
   return 0;
 }
