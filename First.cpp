@@ -1,14 +1,23 @@
 #include <iostream>
+#include <string>
 using namespace std;
-
-int main() {
-  int x, y;
-  int sum;
-  cout << "Type a number: ";
-  cin >> x;
-  cout << "Type another number: ";
-  cin >> y;
-  sum = x + y;
-  cout << "Sum is: " << sum;
+ 
+int main () {
+  // Creating variables
+  int myNum = 5;               // Integer (whole number)
+  float myFloatNum = 5.99;     // Floating point number
+  double myDoubleNum = 9.98;   // Floating point number
+  char myLetter = 'D';         // Character
+  bool myBoolean = true;       // Boolean
+  string myString = "Hello";   // String
+   
+  // Print variable values
+  cout << "int: " << myNum << "\n";
+  cout << "float: " << myFloatNum << "\n";
+  cout << "double: " << myDoubleNum << "\n";
+  cout << "char: " << myLetter << "\n";
+  cout << "bool: " << myBoolean << "\n";
+  cout << "string: " << myString << "\n";
+ 
   return 0;
 }
