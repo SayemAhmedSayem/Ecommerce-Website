@@ -2,9 +2,9 @@
 using namespace std;
  
 int main () {
-  int myNum = 1000;
-  float myNum = 5.75;
-  double myNum = 19.99;
-  cout << myNum;
+  float f1 = 35e3;
+  double d1 = 12E4;
+  cout << f1 << "\n";
+  cout << d1;
   return 0;
 }
