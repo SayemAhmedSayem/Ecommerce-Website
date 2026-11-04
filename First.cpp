@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
- 
-int main () {
-  float f1 = 35e3;
-  double d1 = 12E4;
-  cout << f1 << "\n";
-  cout << d1;
+
+int main() {
+  bool isCodingFun = true;
+  bool isFishTasty = false;
+  cout << isCodingFun << "\n";
+  cout << isFishTasty;
   return 0;
 }
