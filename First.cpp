@@ -1,10 +1,9 @@
 #include <iostream>
+#include <string> // Include the string library
 using namespace std;
- 
-int main () {
-  char a = 65, b = 66, c = 67;
-  cout << a;
-  cout << b;
-  cout << c;
+
+int main() {
+  string greeting = "Hello"; // Create a string variable
+  cout << greeting; // Output string value
   return 0;
 }
