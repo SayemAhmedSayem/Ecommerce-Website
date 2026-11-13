@@ -1,9 +1,23 @@
 #include <iostream>
-#include <string> // Include the string library
+#include <string>
 using namespace std;
-
-int main() {
-  string greeting = "Hello"; // Create a string variable
-  cout << greeting; // Output string value
+ 
+int main () {
+  // Creating auto variables
+  auto myNum = 5;            // int
+  auto myFloatNum = 5.99f;   // float
+  auto myDoubleNum = 9.98;   // double
+  auto myLetter = 'D';       // char
+  auto myBoolean = true;     // bool
+  auto myString = string("Hello"); // std::string
+     
+  // Print variable values
+  cout << "int: " << myNum << "\n";
+  cout << "float: " << myFloatNum << "\n";
+  cout << "double: " << myDoubleNum << "\n";
+  cout << "char: " << myLetter << "\n";
+  cout << "bool: " << myBoolean << "\n";
+  cout << "string: " << myString << "\n";
+ 
   return 0;
 }
