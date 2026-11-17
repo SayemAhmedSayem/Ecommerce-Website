@@ -1,23 +1,17 @@
 #include <iostream>
-#include <string>
 using namespace std;
- 
-int main () {
-  // Creating auto variables
-  auto myNum = 5;            // int
-  auto myFloatNum = 5.99f;   // float
-  auto myDoubleNum = 9.98;   // double
-  auto myLetter = 'D';       // char
-  auto myBoolean = true;     // bool
-  auto myString = string("Hello"); // std::string
-     
-  // Print variable values
-  cout << "int: " << myNum << "\n";
-  cout << "float: " << myFloatNum << "\n";
-  cout << "double: " << myDoubleNum << "\n";
-  cout << "char: " << myLetter << "\n";
-  cout << "bool: " << myBoolean << "\n";
-  cout << "string: " << myString << "\n";
- 
+
+int main() {
+  // Create variables of different data types
+  int items = 50;
+  double cost_per_item = 9.99;
+  double total_cost = items * cost_per_item;
+  char currency = '$';
+
+  // Print variables
+  cout << "Number of items: " << items << "\n";
+  cout << "Cost per item: " << cost_per_item << currency << "\n";
+  cout << "Total cost = " << total_cost << currency << "\n";
+
   return 0;
 }
