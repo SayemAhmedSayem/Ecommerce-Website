@@ -8,7 +8,6 @@ int main() {
 
   // Print studentID
   // Print score
-  // Print grade
 
   return 0;
 }
