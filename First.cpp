@@ -2,12 +2,20 @@
 using namespace std;
 
 int main() {
-  // Write studentID here
-  // Write score here
-  // Write grade here
+  int x = 10;
+  int y = 3;
 
-  // Print studentID
-  // Print score
+  cout << (x + y) << "\n"; // 13
+  cout << (x - y) << "\n"; // 7
+  cout << (x * y) << "\n"; // 30
+  cout << (x / y) << "\n"; // 3  (integer division!)
+  cout << (x % y) << "\n"; // 1
+
+  int z = 5;
+  ++z;
+  cout << z << "\n"; // 6
+  --z;
+  cout << z << "\n"; // 5
 
   return 0;
 }
